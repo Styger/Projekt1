@@ -7,7 +7,11 @@ function App() {
       <Alert>
         Hello <span>World</span>
       </Alert>
-      <Button children={"My Button"}></Button>
+      <Button
+        children={"My Button"}
+        onClick={() => console.log("Clicked")}
+        color="danger"
+      ></Button>
     </div>
   );
 }
